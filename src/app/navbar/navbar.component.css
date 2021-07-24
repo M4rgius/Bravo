@@ -1,0 +1,22 @@
+.navbar {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: rgba(238, 180, 30, 1);
+
+  width: 100%;
+  height: 22vh;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  letter-spacing: 10px;
+  padding-right: 1%;
+}
+
+.LogoPanda {
+  width: 317px;
+  height: 222px;
+}
