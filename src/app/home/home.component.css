@@ -5,9 +5,14 @@
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: rgba(238, 180, 30, 1);
 }
-p {
+.text1 {
   word-spacing: 5px;
   font-size: 22px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 456.69%;
 }
 
 button {
@@ -18,9 +23,35 @@ button {
   height: 39px;
   font-size: 13px;
   text-transform: uppercase;
-  margin-top: 8px;
+  margin-top: 20px;
+}
+
+.text2 {
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 15%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 170.69%;
+  text-align: center;
 }
 
 .image1 {
   border: 3px solid #eeb41e;
+  width: 1067px;
+  height: 463px;
+}
+
+.image2 {
+  width: 1067px;
+  height: 473px;
+  border: 3px solid #eeb41e;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
