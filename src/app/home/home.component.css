@@ -4,6 +4,7 @@
   align-items: center;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   color: rgba(238, 180, 30, 1);
+  background-color: #1b1b1b;
 }
 .text1 {
   word-spacing: 5px;
@@ -15,7 +16,7 @@
   line-height: 456.69%;
 }
 
-button {
+.abbonamento {
   border-radius: 50px;
   background-color: rgba(238, 180, 30, 1);
   color: white;
@@ -38,6 +39,10 @@ button {
   text-align: center;
 }
 
+.carousel-item {
+  border: 3px solid #eeb41e;
+}
+
 .image1 {
   border: 3px solid #eeb41e;
   width: 1067px;
@@ -53,5 +58,8 @@ button {
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 60px;
+  font-size: 12px;
+  width: 90%;
 }
