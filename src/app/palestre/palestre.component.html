@@ -1,0 +1,11 @@
+<h3>Palestre</h3>
+
+<div *ngFor="let palestre of palestre">
+  <h3>
+    <a [routerLink]="['/palestre', palestre.id]">
+      {{ palestre.name }}
+    </a>
+    <a>{{ palestre.position }}</a>
+    <a>{{ palestre.description }}</a>
+  </h3>
+</div>
