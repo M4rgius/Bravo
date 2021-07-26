@@ -9,10 +9,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AbbonamentiComponent } from './abbonamenti/abbonamenti.component';
 import { PalestreComponent } from './palestre/palestre.component';
 import { LoginComponent } from './login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, HomeComponent, AbbonamentiComponent, PalestreComponent, LoginComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,10 +1,13 @@
 <div id="login-form">
     <div class="form">
+
 <p>Username</p>
-<input type="text" placeholder="insert your email">
+<input type="email" name = "email" [(ngModel)]="email" placeholder="insert your email">
+
 <p>Password</p>
-<input type="text" placeholder="insert your password">
-<button>Login</button>
+<input type="password" name = "password" [(ngModel)]="password" placeholder="insert your password">
+
+<button class="btn btn-success" (click)=controlloLogin()>Login</button>
 <button>Registrati</button>
 </div>
 </div>
